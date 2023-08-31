@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: #00b982;
+}
+
+body,
+button,
+input {
+    font-family: 'Righteous', cursive;
+}
+
+.main-container {
+    background-color: #3e3e3e;
+    height: 50vh;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    border-radius: 23px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 4);
+}
+
+.heading {
+    position: absolute;
+    top: 33%;
+    left: 23%;
+    font-size: 30px;
+    color: #00b982;
+}
+
+.app-form-group1 {
+    position: absolute;
+    top: 18%;
+    left: 63%;
+    width: 245px;
+}
+
+.app-form-group2 {
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    width: 245px;
+}
+
+.app-form-group3 {
+    position: absolute;
+    top: 42%;
+    left: 63%;
+    width: 245px;
+}
+
+.app-form-group4 {
+    position: absolute;
+    top: 55%;
+    left: 63%;
+    width: 245px;
+}
+
+.app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(139, 139, 139);
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.app-form-button {
+    position: absolute;
+    top: 64%;
+    left: 62.5%;
+    background: none;
+    border: none;
+    color: #00b982;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.app-form-button:hover {
+    color: #138f6a;
+}
+
+#showdata {
+    color: white;
+    padding-top: 280px;
+    padding-left: 22px;
+    font-size: 24px;
+    text-align: center;
+}
